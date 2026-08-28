@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="VernoForma — учебный концепт лендинга студии ремонта квартир." />
+    <title>VernoForma — ремонт без хаоса</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23202326'/%3E%3Cpath fill='%23C66B3D' d='M6 25 16 6h5L11 25zM18 25 28 6h2L20 25z'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">К содержанию</a>
+
+    <div class="concept-bar" role="note">
+      <span class="concept-bar__marker" aria-hidden="true"></span>
+      <p>Концепт-проект для портфолио. Бренд и представленные данные вымышлены.</p>
+    </div>
+
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="VernoForma — на главную">
+        <svg class="brand__mark" viewBox="0 0 44 44" aria-hidden="true"><path d="M5 34 19 9h8L15 34H5Z"/><path d="M22 34 36 9h4L28 34h-6Z"/></svg>
+        <span class="brand__text"><b>VernoForma</b><small>Ремонт без хаоса</small></span>
+      </a>
+      <nav class="site-nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#projects">Проекты</a>
+        <a href="#steps">Этапы</a>
+        <a href="#calculator">Расчёт</a>
+        <a href="#faq">Вопросы</a>
+      </nav>
+      <div class="header-actions">
+        <a class="header-phone" href="tel:+73432040580">+7 (343) 204-05-80</a>
+        <button class="button button--small button--dark" type="button" data-callback-open>Заказать звонок</button>
+      </div>
+      <button class="mobile-contact" type="button" data-callback-open aria-label="Заказать звонок">↗</button>
+      <button class="menu-button" type="button" aria-label="Открыть меню" aria-expanded="false"><i></i><i></i></button>
+    </header>
+
+    <main id="content">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero__copy">
+          <p class="eyebrow"><span></span> Ремонт квартир в Екатеринбурге</p>
+          <h1 id="hero-title">Ремонт под ключ<br />без скрытых работ<br /><em>и хаоса</em></h1>
+          <p class="hero__lead">Согласовываем этапы и предварительную смету до начала работ, показываем прогресс в отчётах и сдаём каждый этап по чек-листу.</p>
+          <div class="hero__actions">
+            <a class="button button--signal" href="#calculator">Рассчитать стоимость <span>↘</span></a>
+            <a class="link-arrow" href="#projects">Посмотреть проекты <span>↓</span></a>
+          </div>
+          <p class="hero__note">Предварительный расчёт займёт около двух минут.</p>
+        </div>
+        <div class="hero__image" role="img" aria-label="Современный светлый интерьер квартиры">
+          <span class="hero__grid" aria-hidden="true"></span>
+          <div class="progress-card">
+            <span class="card-label">Текущий этап</span>
+            <strong>Чистовая<br />отделка</strong>
+            <div class="progress-card__line"><span></span></div>
+            <small>Выполнено 7 из 10 задач</small>
+          </div>
+          <p class="hero__caption">Контроль ремонта — демонстрация интерфейса</p>
+        </div>
+      </section>
+
+      <section class="principles section-shell" aria-labelledby="principles-title">
+        <div class="section-heading section-heading--split">
+          <div>
+            <p class="eyebrow"><span></span> Как устроена работа</p>
+            <h2 id="principles-title">Понятный процесс<br />от замера до сдачи</h2>
+          </div>
+          <p>Вы заранее понимаете, что будет происходить, сколько этапов предстоит пройти и как контролировать результат.</p>
+        </div>
+        <div class="principles__grid">
+          <article class="principle-card">
+            <span class="principle-card__index">01</span><span class="principle-card__icon icon-estimate" aria-hidden="true"></span>
+            <h3>Предварительная смета</h3><p>Основные работы и материалы распределяются по понятным категориям.</p>
+          </article>
+          <article class="principle-card principle-card--blue">
+            <span class="principle-card__index">02</span><span class="principle-card__icon icon-payment" aria-hidden="true"></span>
+            <h3>Поэтапная оплата</h3><p>Оплата привязана к согласованным этапам, а не вносится полностью в начале проекта.</p>
+          </article>
+          <article class="principle-card principle-card--yellow">
+            <span class="principle-card__index">03</span><span class="principle-card__icon icon-photo" aria-hidden="true"></span>
+            <h3>Фотоотчёты</h3><p>Прогресс работ показывается в регулярных фотографиях и кратких отчётах.</p>
+          </article>
+          <article class="principle-card principle-card--ink">
+            <span class="principle-card__index">04</span><span class="principle-card__icon icon-check" aria-hidden="true">✓</span>
+            <h3>Приёмка по чек-листу</h3><p>Каждый этап проверяется перед переходом к следующему.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="services section-shell" id="services" aria-labelledby="services-title">
+        <div class="section-heading">
+          <p class="eyebrow"><span></span> Форматы работ</p>
+          <h2 id="services-title">Выберите подходящий<br />формат ремонта</h2>
+          <p>Стоимость зависит от состояния квартиры, площади, материалов и состава работ.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-card__top"><span>01 / формат</span><h3>Косметический</h3></div>
+            <p>Обновление отделки без значительной перепланировки и замены основных коммуникаций.</p>
+            <div class="service-card__list"><span>Состав</span><ul><li>Подготовка поверхностей</li><li>Покраска или обои</li><li>Напольное покрытие</li><li>Замена розеток и выключателей</li><li>Монтаж плинтусов</li></ul></div>
+            <strong class="service-card__price">от 12 000 ₽/м²</strong>
+          </article>
+          <article class="service-card service-card--featured">
+            <div class="service-card__top"><span>02 / формат</span><h3>Капитальный</h3></div>
+            <p>Полное обновление отделки, инженерных систем и основных элементов квартиры.</p>
+            <div class="service-card__list"><span>Состав</span><ul><li>Демонтаж</li><li>Выравнивание стен и пола</li><li>Электрика и сантехника</li><li>Чистовая отделка</li><li>Установка оборудования</li></ul></div>
+            <strong class="service-card__price">от 20 000 ₽/м²</strong>
+          </article>
+          <article class="service-card service-card--dark">
+            <div class="service-card__top"><span>03 / формат</span><h3>С дизайн-<br />проектом</h3></div>
+            <p>Ремонт по заранее подготовленной концепции с подбором материалов и визуальным планом помещений.</p>
+            <div class="service-card__list"><span>Состав</span><ul><li>Планировочное решение</li><li>Визуальная концепция</li><li>Комплектация материалов</li><li>Капитальные работы</li><li>Авторский контроль</li></ul></div>
+            <strong class="service-card__price">от 28 000 ₽/м²</strong>
+          </article>
+        </div>
+        <p class="section-disclaimer">Цены приведены для демонстрации интерфейса и не являются коммерческим предложением.</p>
+      </section>
+
+      <section class="projects" id="projects" aria-labelledby="projects-title">
+        <div class="section-shell">
+          <div class="section-heading section-heading--split">
+            <div><p class="eyebrow"><span></span> Демонстрационные проекты</p><h2 id="projects-title">Как может выглядеть<br />результат</h2></div>
+            <p>Демонстрационные проекты показывают разные задачи, площади и визуальные решения.</p>
+          </div>
+          <div class="project-list">
+            <article class="project-card">
+              <button class="project-card__image" data-project="0" type="button" aria-label="Открыть галерею: Светлая квартира для пары"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&amp;fit=crop&amp;w=1500&amp;q=85" alt="Светлый современный интерьер" /><span>Смотреть галерею ↗</span></button>
+              <div class="project-card__copy"><span class="project-card__number">Проект / 01</span><h3>Светлая квартира<br />для пары</h3><dl><div><dt>Район</dt><dd>Академический</dd></div><div><dt>Площадь</dt><dd>52 м²</dd></div><div><dt>Формат</dt><dd>капитальный ремонт</dd></div><div><dt>Условный срок</dt><dd>11 недель</dd></div></dl></div>
+            </article>
+            <article class="project-card project-card--reverse">
+              <button class="project-card__image" data-project="1" type="button" aria-label="Открыть галерею: Компактная студия для сдачи"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=1500&amp;q=85" alt="Компактный интерьер студии" /><span>Смотреть галерею ↗</span></button>
+              <div class="project-card__copy"><span class="project-card__number">Проект / 02</span><h3>Компактная студия<br />для сдачи</h3><dl><div><dt>Район</dt><dd>Втузгородок</dd></div><div><dt>Площадь</dt><dd>31 м²</dd></div><div><dt>Формат</dt><dd>ремонт под ключ</dd></div><div><dt>Условный срок</dt><dd>7 недель</dd></div></dl></div>
+            </article>
+            <article class="project-card">
+              <button class="project-card__image" data-project="2" type="button" aria-label="Открыть галерею: Семейная квартира с рабочей зоной"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&amp;fit=crop&amp;w=1500&amp;q=85" alt="Семейная квартира с рабочей зоной" /><span>Смотреть галерею ↗</span></button>
+              <div class="project-card__copy"><span class="project-card__number">Проект / 03</span><h3>Семейная квартира<br />с рабочей зоной</h3><dl><div><dt>Район</dt><dd>Центр</dd></div><div><dt>Площадь</dt><dd>78 м²</dd></div><div><dt>Формат</dt><dd>ремонт с дизайн-проектом</dd></div><div><dt>Условный срок</dt><dd>15 недель</dd></div></dl></div>
+            </article>
+          </div>
+          <p class="projects__note"><span>i</span> Все изображения и характеристики используются исключительно в демонстрационном проекте.</p>
+        </div>
+      </section>
+
+      <section class="steps section-shell" id="steps" aria-labelledby="steps-title">
+        <div class="section-heading"><p class="eyebrow"><span></span> Последовательность</p><h2 id="steps-title">Что происходит после<br />обращения</h2></div>
+        <ol class="timeline">
+          <li><span>01</span><div><h3>Заявка</h3><p>Вы рассказываете о квартире, её площади и желаемом результате.</p></div></li>
+          <li><span>02</span><div><h3>Осмотр и уточнение задачи</h3><p>Специалист изучает состояние объекта и уточняет состав необходимых работ.</p></div></li>
+          <li><span>03</span><div><h3>Смета и план</h3><p>Согласовываются этапы, предварительная стоимость и последовательность работ.</p></div></li>
+          <li><span>04</span><div><h3>Выполнение ремонта</h3><p>Работы выполняются по этапам, а заказчик получает информацию о прогрессе.</p></div></li>
+          <li><span>05</span><div><h3>Проверка и сдача</h3><p>Результат проверяется по чек-листу, после чего объект передаётся заказчику.</p></div></li>
+        </ol>
+      </section>
+
+      <section class="calculator" id="calculator" aria-labelledby="calculator-title">
+        <div class="section-shell calculator__layout">
+          <div class="calculator__intro"><p class="eyebrow"><span></span> Опрос из четырёх шагов</p><h2 id="calculator-title">Рассчитайте<br />предварительную<br /><em>стоимость</em> ремонта</h2><p>Ответьте на четыре вопроса. Точная стоимость определяется только после осмотра квартиры.</p></div>
+          <form class="quiz" id="quiz-form" data-form-type="Расчёт стоимости" data-endpoint="" novalidate>
+            <div class="quiz__head"><span id="quiz-step">Шаг 1 из 4</span><div class="quiz__progress"><span id="quiz-progress"></span></div></div>
+            <fieldset class="quiz__step is-active" data-step="1"><legend>Тип квартиры</legend><label><input type="radio" name="apartment" value="Новостройка без отделки" /><span>Новостройка без отделки</span></label><label><input type="radio" name="apartment" value="Новостройка с отделкой" /><span>Новостройка с отделкой</span></label><label><input type="radio" name="apartment" value="Вторичное жильё" /><span>Вторичное жильё</span></label></fieldset>
+            <fieldset class="quiz__step" data-step="2"><legend>Площадь</legend><label><input type="radio" name="area" value="До 35 м²" /><span>До 35 м²</span></label><label><input type="radio" name="area" value="36–55 м²" /><span>36–55 м²</span></label><label><input type="radio" name="area" value="56–80 м²" /><span>56–80 м²</span></label><label><input type="radio" name="area" value="Более 80 м²" /><span>Более 80 м²</span></label></fieldset>
+            <fieldset class="quiz__step" data-step="3"><legend>Формат ремонта</legend><label><input type="radio" name="format" value="Косметический" /><span>Косметический</span></label><label><input type="radio" name="format" value="Капитальный" /><span>Капитальный</span></label><label><input type="radio" name="format" value="С дизайн-проектом" /><span>С дизайн-проектом</span></label><label><input type="radio" name="format" value="Пока не определился" /><span>Пока не определился</span></label></fieldset>
+            <fieldset class="quiz__step" data-step="4"><legend>Когда планируется начало</legend><label><input type="radio" name="start" value="В ближайший месяц" /><span>В ближайший месяц</span></label><label><input type="radio" name="start" value="Через 1–3 месяца" /><span>Через 1–3 месяца</span></label><label><input type="radio" name="start" value="Позже" /><span>Позже</span></label><label><input type="radio" name="start" value="Пока изучаю варианты" /><span>Пока изучаю варианты</span></label></fieldset>
+            <div class="quiz__contact" hidden>
+              <h3>Куда отправить предварительный расчёт?</h3>
+              <label class="form-field">Имя<input type="text" name="name" autocomplete="name" placeholder="Как к вам обращаться" required /><span class="form-field__error" data-field-error="name"></span></label>
+              <label class="form-field">Номер телефона<input type="tel" name="phone" inputmode="tel" autocomplete="tel" placeholder="+7 (___) ___-__-__" data-phone-input required /><span class="form-field__error" data-field-error="phone"></span></label>
+              <fieldset class="contact-way"><legend>Предпочтительный способ связи</legend><label><input type="radio" name="contact" value="Телефон" checked /><span>Телефон</span></label><label><input type="radio" name="contact" value="Telegram" /><span>Telegram</span></label><label><input type="radio" name="contact" value="WhatsApp" /><span>WhatsApp</span></label></fieldset>
+              <label class="consent-check"><input type="checkbox" name="consent" required /><span>Даю согласие на обработку персональных данных.</span><span class="form-field__error" data-field-error="consent"></span></label>
+              <div class="form-honeypot" aria-hidden="true"><label>Не заполняйте это поле<input type="text" name="website" tabindex="-1" autocomplete="off" /></label></div>
+            </div>
+            <p class="form-status" id="quiz-status" data-form-status aria-live="polite"></p>
+            <div class="quiz__actions"><button class="button button--ghost" id="quiz-back" type="button" hidden>← Назад</button><button class="button button--signal" id="quiz-next" type="button">Далее <span>→</span></button><button class="button button--signal" id="quiz-submit" type="submit" hidden>Получить предварительный расчёт <span>↗</span></button></div>
+            <p class="quiz__consent" hidden>Все поля обязательны. Контакты используются только для подготовки расчёта.</p>
+            <p class="form-demo-note">Демонстрационная версия: форма не подключена к сервису, поэтому заявки не отправляются.</p>
+            <div class="quiz__result" id="quiz-result" aria-live="polite" hidden><b>Заявка отправлена.</b><p>Спасибо, мы получили данные для предварительного расчёта.</p></div>
+          </form>
+        </div>
+      </section>
+
+      <section class="documents section-shell" aria-labelledby="documents-title">
+        <div class="section-heading section-heading--split"><div><p class="eyebrow"><span></span> Документы и контроль</p><h2 id="documents-title">Вы понимаете,<br />за что платите</h2></div><p>До начала работ клиент получает основные документы, по которым можно контролировать процесс.</p></div>
+        <div class="document-grid">
+          <article class="document-card">
+            <button class="document-card__preview" type="button" data-document="estimate" aria-label="Открыть пример сметы на ремонт в увеличенном окне">
+              <img src="assets/documents/repair-estimate-demo.png" alt="Пример сметы на ремонт: таблицы работ, материалов и итоговой стоимости" />
+              <span aria-hidden="true">Увеличить ↗</span>
+            </button>
+            <h3>Смета</h3>
+            <p>Перечень основных работ, материалов и предполагаемых расходов.</p>
+          </article>
+          <article class="document-card">
+            <button class="document-card__preview" type="button" data-document="schedule" aria-label="Открыть пример графика выполнения работ в увеличенном окне">
+              <img src="assets/documents/work-schedule-demo.png" alt="Пример графика выполнения работ: этапы ремонта и сроки по неделям" />
+              <span aria-hidden="true">Увеличить ↗</span>
+            </button>
+            <h3>График</h3>
+            <p>Последовательность этапов и ориентировочные сроки их выполнения.</p>
+          </article>
+          <article class="document-card">
+            <button class="document-card__preview" type="button" data-document="checklist" aria-label="Открыть пример чек-листа приёмки в увеличенном окне">
+              <img src="assets/documents/acceptance-checklist-demo.png" alt="Пример чек-листа приёмки: проверки отделки, электрики, сантехники и фурнитуры" />
+              <span aria-hidden="true">Увеличить ↗</span>
+            </button>
+            <h3>Чек-лист приёмки</h3>
+            <p>Список параметров, которые необходимо проверить перед завершением этапа.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="faq section-shell" id="faq" aria-labelledby="faq-title">
+        <div class="section-heading"><p class="eyebrow"><span></span> Частые вопросы</p><h2 id="faq-title">Ответы до начала<br />ремонта</h2></div>
+        <div class="faq__list">
+          <details open><summary>Можно ли назвать точную стоимость без осмотра?</summary><p>Нет. По площади и типу ремонта можно определить только примерный диапазон. На стоимость влияют состояние квартиры, материалы и состав работ.</p></details>
+          <details><summary>Можно ли выполнять ремонт поэтапно?</summary><p>Да. Этапы и их последовательность согласовываются до начала работ.</p></details>
+          <details><summary>Кто закупает материалы?</summary><p>В зависимости от выбранного формата материалы может закупать заказчик или подрядчик по согласованному списку.</p></details>
+          <details><summary>Можно использовать готовый дизайн-проект?</summary><p>Да. Перед началом работ необходимо проверить его состав и наличие технических чертежей.</p></details>
+          <details><summary>Как контролировать ремонт, если я редко бываю на объекте?</summary><p>Для этого используются фотографии, краткие отчёты и промежуточная приёмка этапов.</p></details>
+          <details><summary>Что произойдёт после отправки формы?</summary><p>Специалист уточнит исходные данные и предложит следующий шаг. В демонстрационной версии фактическая консультация не проводится.</p></details>
+        </div>
+      </section>
+
+      <section class="final-cta section-shell" aria-labelledby="final-title">
+        <div class="final-cta__copy"><p class="eyebrow"><span></span> Следующий шаг</p><h2 id="final-title">Начните с предварительного расчёта</h2><p>Расскажите о квартире и желаемом результате. Это поможет определить подходящий формат ремонта и примерный бюджет.</p></div>
+        <div class="final-cta__image" role="img" aria-label="Интерьер современной квартиры"><span class="final-cta__plan">1:100<br /><b>ПЛАН</b><br />КВАРТИРЫ</span></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__top section-shell">
+        <a class="brand brand--footer" href="#top"><svg class="brand__mark" viewBox="0 0 44 44" aria-hidden="true"><path d="M5 34 19 9h8L15 34H5Z"/><path d="M22 34 36 9h4L28 34h-6Z"/></svg><span class="brand__text"><b>VernoForma</b><small>Концепт студии ремонта квартир</small></span></a>
+        <nav class="footer-nav" aria-label="Навигация в подвале"><a href="#services">Услуги</a><a href="#projects">Проекты</a><a href="#steps">Этапы</a><a href="#calculator">Расчёт</a><a href="#faq">Вопросы</a></nav>
+        <div class="footer-contacts"><a href="tel:+73432040580">+7 (343) 204-05-80</a><a href="mailto:hello@vernoforma.example">hello@vernoforma.example</a><a href="#top">Политика конфиденциальности</a></div>
+      </div>
+      <div class="site-footer__bottom section-shell"><span>© 2026 VernoForma</span><p>Учебный концепт для портфолио. Компания VernoForma, её услуги, проекты, цены и контакты вымышлены.</p></div>
+    </footer>
+
+    <dialog class="gallery-modal" id="gallery-modal" aria-labelledby="gallery-title">
+      <button class="gallery-modal__close" type="button" aria-label="Закрыть галерею">×</button>
+      <div class="gallery-modal__body"><div class="gallery-modal__image"><img id="gallery-image" src="" alt="" /></div><div class="gallery-modal__copy"><span>Демонстрационный проект</span><h2 id="gallery-title"></h2><p id="gallery-description"></p><div class="gallery-modal__thumbs" id="gallery-thumbs"></div><small>Все изображения и характеристики используются исключительно в демонстрационном проекте.</small></div></div>
+    </dialog>
+
+    <dialog class="document-modal" id="document-modal" aria-labelledby="document-modal-title">
+      <button class="document-modal__close" type="button" data-document-close aria-label="Закрыть просмотр документа">×</button>
+      <div class="document-modal__body">
+        <div class="document-modal__image"><img id="document-modal-image" src="" alt="" /></div>
+        <div class="document-modal__copy"><span>Демонстрационный документ</span><h2 id="document-modal-title"></h2><p id="document-modal-description"></p><small>Данные в документе вымышлены и приведены только для демонстрации структуры.</small></div>
+      </div>
+    </dialog>
+
+    <dialog class="callback-modal" id="callback-modal" aria-labelledby="callback-title">
+      <button class="callback-modal__close" type="button" data-callback-close aria-label="Закрыть форму">×</button>
+      <div class="callback-modal__body">
+        <p class="eyebrow"><span></span> Обратный звонок</p>
+        <h2 id="callback-title">Обсудим ваш ремонт</h2>
+        <p class="callback-modal__lead">Оставьте контакты, и мы перезвоним в удобное время.</p>
+        <form class="callback-form" id="callback-form" data-form-type="Заказ обратного звонка" data-endpoint="" novalidate>
+          <label class="form-field">Имя<input type="text" name="name" autocomplete="name" placeholder="Как к вам обращаться" required /><span class="form-field__error" data-field-error="name"></span></label>
+          <label class="form-field">Номер телефона<input type="tel" name="phone" inputmode="tel" autocomplete="tel" placeholder="+7 (___) ___-__-__" data-phone-input required /><span class="form-field__error" data-field-error="phone"></span></label>
+          <label class="consent-check"><input type="checkbox" name="consent" required /><span>Даю согласие на обработку персональных данных.</span><span class="form-field__error" data-field-error="consent"></span></label>
+          <div class="form-honeypot" aria-hidden="true"><label>Не заполняйте это поле<input type="text" name="website" tabindex="-1" autocomplete="off" /></label></div>
+          <p class="form-status" data-form-status aria-live="polite"></p>
+          <button class="button button--signal" type="submit">Заказать звонок <span>↗</span></button>
+          <p class="form-demo-note">Демонстрационная версия: форма не подключена к сервису, поэтому заявки не отправляются.</p>
+        </form>
+      </div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
